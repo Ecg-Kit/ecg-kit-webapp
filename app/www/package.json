@@ -1,0 +1,20 @@
+{
+  "name": "ecg-analyzer",
+  "version": "0.0.1",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "gulp": "^3.9.1",
+    "gulp-serve": "^1.4.0"
+  },
+  "description": "ecg-analyzer",
+  "main": "index.js",
+  "dependencies": {
+    "bower": "^1.7.9",
+    "gulp-cli": "^1.2.1"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
+}
