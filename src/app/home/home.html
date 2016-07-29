@@ -1,0 +1,31 @@
+<div class="app-home jumbotron">
+
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-sm-3">
+                <img class="icon" src="content/img/icon-red.png"/>
+            </div>
+            <div class="col-sm-9">
+                <h1> Welcome to ecg analyzer!</h1>
+                <p> A mobile app for cardiovascular signal processing</p>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12">
+            <label class="btn btn-primary-black" for="my-file-selector">
+                <input id="my-file-selector" type="file" style="display:none;"
+                       onchange="$('#upload-file-info').html($(this).val());">
+                Upload ECG
+            </label>
+            <span class='label label-info' id="upload-file-info"></span>
+        </div>
+    </div>
+</div>
+
