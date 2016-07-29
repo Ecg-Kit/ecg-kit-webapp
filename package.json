@@ -1,0 +1,36 @@
+{
+  "name": "ecg-kit-webapp",
+  "version": "0.0.1",
+  "description": "ECG-Kit Web-app",
+  "author": "Alan Campora, Sebastian Torres",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ecg-Kit/ecg-kit-webapp"
+  },
+  "maintainers": [
+    "Alan Campora <alan.campora@gmail.com>",
+    "Sebastian Torres <seba.j.torres@gmail.com>"
+  ],
+  "scripts": {
+    "start": "gulp --gulpfile src/gulpfile.js serve",
+		"build": "cd src && bower install && cd ..",
+    "setup": "python $MATHLABROOT/extern/engines/python/setup.py",
+    "lint": "eslint src"
+  },
+  "pre-commit": {
+    "run": "lint"
+  },
+  "dependencies": {
+    "angular": "^1.5.8",
+    "jquery": "^1.9.1",
+		"bower": "^1.7.9",
+    "gulp-cli": "^1.2.1",
+		"gulp": "^3.9.1",
+		"gulp-serve": "^1.4.0"
+
+  },
+  "devDependencies": {
+    "eslint": "^2.9.0"
+  }
+}
